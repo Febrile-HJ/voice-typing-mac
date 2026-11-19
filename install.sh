@@ -10,7 +10,7 @@ REPO="Febrile-HJ/voice-typing-mac"
 BASE="${VT_RELEASE_BASE:-https://github.com/$REPO/releases/latest/download}"
 TARGET="${VT_INSTALL_TARGET:-/Applications/Voice-Typing.app}"
 CONFIG="${VT_CONFIG_DIR:-$HOME/.voice-typing}"
-REQ='identifier "kr.joseph.voice-typing" and certificate leaf = H"fa6800c224114814fbb237ab321b03c4d16f3c7a"'
+REQ='identifier "kr.joseph.voice-typing" and certificate leaf = H"5a65db22a78e7437ffaf0468047b9b07607ddec5"'
 EXE="$TARGET/Contents/MacOS/JosephsVoiceTyping"
 
 say() { printf '%s\n' "$*"; }
